@@ -1,0 +1,21 @@
+{
+    "name": "vaail/nocaptcha",
+    "description": "No CAPTCHA reCAPTCHA For Laravel.",
+    "keywords": ["recaptcha", "no-captcha", "captcha", "laravel", "laravel5"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vaail",
+            "email": "dzotcrew@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "^5.0.33"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vaail\\NoCaptcha\\": "src/"
+        }
+    }
+}
